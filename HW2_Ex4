@@ -1,0 +1,5 @@
+#Задача5
+import math
+price = [57.9, 30.51, 20.87, 40.35, 97, 88.9, 37.9, 58.44, 44.39, 68]
+#price = sorted(price, reverse=True)
+print(f'{math.modf(price[1])}')
